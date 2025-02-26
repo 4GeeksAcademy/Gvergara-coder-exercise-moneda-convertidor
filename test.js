@@ -45,7 +45,7 @@ test("One Yen should be 180 Pound", function() {
 
     const pound = fromYenToPound(1);
 
-    const expected = Math.floor(1 / 0.87 * 156.5);
+    const expected = Math.floor(1 / 156.5 * 0.87);
     
      expect(pound).toBe(expected); 
 
